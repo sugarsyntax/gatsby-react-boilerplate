@@ -9,13 +9,14 @@
 .header {
     width: 100%;
     &-content {
-        height: 15rem;
+        height: 30rem;
         text-align: center;
     }
     &-nav-list {
         margin: 0;
         padding: 0;
         list-style-type: none;
+        display: flex;
         text-align: center;
         align-items: center;
         justify-content: space-between;

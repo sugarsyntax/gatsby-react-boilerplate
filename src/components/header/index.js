@@ -21,13 +21,16 @@ const Header = () =>
               <span style={{ color:"#72eb74" }}>n</span>
               <span style={{ color:"#aadfe7" }}>e</span>
             </span>
-            <nav className="header-nav container-fluid col-12">
+            <nav className=" flex-row header-nav container-fluid col-12">
               <ul className="header-nav-list">
                 <li className="header-nav-list-item">
-                  <a href="#features">Features</a>
+                  <a href="#features">About me</a>
                 </li>
                 <li className="header-nav-list-item">
-                  <a href="#howto">How To</a>
+                  <a href="#howto">Portfolio</a>
+                </li>
+                <li className="header-nav-list-item">
+                  <a href="#howto">Contact</a>
                 </li>
               </ul>
             </nav>
