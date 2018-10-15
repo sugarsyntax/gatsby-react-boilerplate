@@ -8,6 +8,9 @@
 
 .header {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     &-content {
         height: 30rem;
         text-align: center;
@@ -21,7 +24,7 @@
         align-items: center;
         justify-content: space-between;
         &-item {
-            margin-right: 0px;
+            margin: 0;
         }
     }
 }
